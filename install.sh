@@ -189,7 +189,7 @@ install_dokploy() {
         -p 80:80/tcp \
         -p 443:443/tcp \
         -p 443:443/udp \
-        traefik/traefik:v3.6.0
+        traefik:v3.6.0
     
     docker network connect dokploy-network dokploy-traefik
 
